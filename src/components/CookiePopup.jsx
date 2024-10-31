@@ -1,4 +1,5 @@
 import { LiaCookieBiteSolid } from "react-icons/lia";
+import CookieButton from "./CookieButton";
 
 const CookiePopup = () => {
   return (
@@ -12,9 +13,7 @@ const CookiePopup = () => {
           <p className="text-xl mb-6 font-sans">
             We use cookies to improve your user experience.
           </p>
-          <button className="w-[100%] text-black bg-gray-200 py-3 rounded-xl text-xl font-sans">
-            I like Cookies
-          </button>
+          <CookieButton buttonText="I like Cookies" />
         </div>
       </div>
     </section>
