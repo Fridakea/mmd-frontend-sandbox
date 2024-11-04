@@ -1,14 +1,11 @@
 import CookiePopup from "@/components/CookiePopup";
-import Show from "@/components/Show";
 
 export default function Home() {
-  const hasGivenConsent = true;
 
   return (
-    <div>
-      <Show condition={hasGivenConsent}>
+    
+    <section className="bg-white w-[100vw] h-[100vh]">
         <CookiePopup />
-      </Show>
-    </div>
+    </section>
   );
 }
